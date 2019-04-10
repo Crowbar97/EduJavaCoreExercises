@@ -336,6 +336,7 @@ public class Expression {
      * puts expression result in the root of the expression tree
      * @param p root of the expression tree
      */
+    // todo use polymorphism
     private void evaluate(Node p) {
         if (p != null) {
             evaluate(p.left);
