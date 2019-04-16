@@ -3,7 +3,7 @@ package edu.JavaCore.Expression;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class App {
+public class Launcher {
     public static void main(String[] args) {
         Expression exp = new Expression();
         if (args.length > 0)
@@ -13,6 +13,7 @@ public class App {
                 System.out.println(e);
             }
         else {
+            System.out.println("Welcome to calculator!");
             Scanner scanner = new Scanner(System.in);
             while (true) {
                 System.out.print("> ");
